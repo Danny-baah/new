@@ -1,0 +1,78 @@
+body{
+    background-image: url(images/bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.main{
+    border: 5px solid blue;
+    margin-left: 56%;
+    height: 95vh;
+    overflow: auto;
+     width: 40%
+     
+     
+
+}
+.set1{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 15px;
+   margin-left: 55px;
+    
+   
+}
+.set1 img{
+   width: 48%;
+   margin-right: 15px;
+
+}
+
+
+.set2{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 15px;
+   margin-left: 55px;
+}
+.set2 img{
+    width: 50%;
+    margin-right: 15px;
+}
+.images img{ 
+    width: 40%;
+    border: 2px solid rgb(55, 26, 196);
+    border-radius: 15px;
+  
+}
+.images img{
+    transition: transform 0.3s ease;
+ 
+}
+.images img:hover{
+    transform: scale(1.1);
+}
+.list h3{
+    margin-left: 55px;
+    font-style: italic;
+    font-size: 30px;
+}
+.list ul{
+    list-style: square;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.list ul button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.list ul button:hover{
+    background-color: #45a049;
+}
